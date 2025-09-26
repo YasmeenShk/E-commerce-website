@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-starter-pack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/styles.css --minify",
+    "preview": "python3 -m http.server 5500 -d public"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47"
+  }
+}
