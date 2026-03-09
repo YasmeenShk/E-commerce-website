@@ -34,5 +34,5 @@ Users can browse products, view details, add items to the shopping cart, and che
 Clone the repository and open the project in your browser:
 
 ```bash
-git clone https://github.com/Yasmeen.Shk/ecommerce-store.git
+git clone https://github.com/YasmeenShk/ecommerce-store.git
 cd ecommerce-store
